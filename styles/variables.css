@@ -1,0 +1,11 @@
+:root {
+  --font-weight: 400;
+  --font-size-base: 16px;
+  --color-text-base: #645C55;
+  --accent-color-text: #1B1A1A;
+  --accent-color: #403E3B;
+  --shade-white: #ECE7E4;
+  --accent-white-bg: #F7F7F7;
+  --beige: #ECE7E4;
+  --dark-beige: #CEC4BC;
+}
