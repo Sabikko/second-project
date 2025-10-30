@@ -1,17 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/variables.css">
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Wishbone+Partners</title>
   </head>
   <body class="page">
-    <header></header>
-    <main></main>
+    <header class="header">
+      <div class="header__block-logo">
+        <svg class="header__logo" viewBox="0 0 220 19">
+          <use href="./svg/logo.svg"></use>
+        </svg>
+      </div>
+      <nav class="header__block-menu">
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <a href="#!" class="header__menu-item-link">Projects</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#!" class="header__menu-item-link">About</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#!" class="header__menu-item-link">News</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#!" class="header__menu-item-link">Team</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#!" class="header__menu-item-link">Contact</a>
+          </li>
+        </ul>
+        <button class="header__menu-button button" type="button">
+          <span class="header__menu-button-text button-text">Get template</span>
+        </button>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="content__greeting">
+        <div class="greeting__block-information">
+          <h5 class="greeting__subtitle subtitle">Wishbone+Partners</h5>
+          <h1 class="greeting__title">The home of beautiful architecture.</h1>
+          <p class="greeting__description">
+            We are an architecture firm with a focus on beautiful but functional
+            design. At its heart, we believe design is about usability and
+            accessibility — these are the guiding principles for our work. Read
+            more about our previous projects, our process and our team below.
+          </p>
+          <button type="button" class="greeting__button button">
+            <a href="#!" class="greeting__button-text button-text">Read more</a>
+          </button>
+        </div>
+        <div class="greeting__block-image">
+          <img
+            src="./image/beautiful-architecture.jpg"
+            class="greeting__image"
+          />
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
