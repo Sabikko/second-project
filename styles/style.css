@@ -116,3 +116,90 @@
   max-width: 720px;
   max-height: 720px;
 }
+
+.content__our-firm {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 336px;
+}
+
+.title-one {
+  font-weight: var(--font-weight);
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.our-firm__block-information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 4px 0 20px;
+}
+
+.our-firm__description {
+  max-width: 493px;
+  padding-right: 8px;
+  color: var(--accent-color);
+  line-height: 24px;
+}
+
+.our-firm__user-profile {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+
+.user-profile__block-image {
+  width: 84px;
+  height: 84px;
+  margin: 8px 0;
+  border: 3px solid var(--dark-beige);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-profile__image {
+  object-fit: cover;
+  object-position: center;
+}
+
+.user-profile__name {
+  color: var(--accent-color-text);
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.user-profile__block-information {
+  margin-left: 30px;
+}
+
+.user-profile__job {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.content__frame {
+  display: flex;
+  padding: 266px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content__reeding-house {
+  justify-content: end;
+  background-image: url('../image/reeding-house.jpg');
+}
+
+.frame__block-information {
+  max-width: 300px;
+}
+
+.frame__title {
+  color: var(--accent-color);
+}
+
+.frame__description {
+  padding-right: 15px;
+  line-height: 24px;
+}
