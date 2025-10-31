@@ -19,6 +19,7 @@
 }
 
 .header__logo {
+  display: block;
   width: 220px;
   height: 19px;
 }
@@ -123,10 +124,14 @@
   padding: 100px 336px;
 }
 
-.title-one {
+.title-two {
   font-weight: var(--font-weight);
   font-size: 32px;
   line-height: 38px;
+}
+
+.our-firm__title {
+  color: var(--accent-color);
 }
 
 .our-firm__block-information {
@@ -202,4 +207,75 @@
 .frame__description {
   padding-right: 15px;
   line-height: 24px;
+}
+
+.content__our-process {
+  padding: 100px 120px;
+}
+
+.our-process__block-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-process__subtitle {
+  margin-bottom: 13px;
+}
+
+.title-one {
+  color: var(--accent-color-text);
+  font-weight: var(--font-weight);
+  font-size: 39px;
+  line-height: 42px;
+}
+
+.our-process__title {
+  margin-bottom: 47px;
+}
+
+.our-process__list-tasks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 16px;
+  list-style: none;
+  gap: 16px;
+}
+
+.our-process__task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task__block-icon {
+  margin-bottom: 15px;
+}
+
+.task__icon {
+  display: block;
+  width: 117px;
+  height: 102px;
+}
+
+.task__block-information {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.task__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: var(--font-weight);
+  margin-bottom: 10px;
+  color: var(--accent-color);
+}
+
+.task__description {
+  padding: 0 40px;
+}
+
+.content__marble-staircase {
+  justify-content: end;
+  background-image: url('../image/marble-staircase.jpg');
 }
