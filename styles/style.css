@@ -1,5 +1,6 @@
 .page {
-  min-height: 100vh;
+  min-width: 1440px;
+  min-height: 810px;
   margin: 0;
   color: var(--color-text-base);
   font-family: "Poppins", sans-serif;
