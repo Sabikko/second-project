@@ -25,6 +25,10 @@ img {
   display: block;
 }
 
+svg {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }

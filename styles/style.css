@@ -19,7 +19,6 @@
 }
 
 .header__logo {
-  display: block;
   width: 220px;
   height: 19px;
 }
@@ -237,9 +236,9 @@
 .our-process__list-tasks {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
   margin: 0 16px;
   list-style: none;
-  gap: 16px;
 }
 
 .our-process__task {
@@ -253,29 +252,97 @@
 }
 
 .task__icon {
-  display: block;
   width: 117px;
   height: 102px;
 }
 
 .task__block-information {
-  text-align: center;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .task__title {
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: var(--font-weight);
   margin-bottom: 10px;
   color: var(--accent-color);
+  font-weight: var(--font-weight);
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .task__description {
   padding: 0 40px;
+  line-height: 24px;
 }
 
 .content__marble-staircase {
   justify-content: end;
   background-image: url('../image/marble-staircase.jpg');
+}
+
+.content__clients {
+  padding: 60px 136px;
+  background-color: var(--accent-color);
+}
+
+.clients__block-information {
+  display: flex;
+  gap: 132px;
+}
+
+.clients__block-text {
+  margin: 65px 0;
+  padding: 10px 0;
+}
+
+.clients__subtitle {
+  color: var(--beige);
+}
+
+.clients__title {
+  margin-bottom: 14px;
+  color: #FFF;
+}
+
+.clients__description {
+  padding-right: 9px;
+  color: var(--beige);
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.clients__block-logos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 96px;
+  margin-right: 144px;
+  padding: 40px;
+}
+
+.clients__block-logo {
+  display: flex;
+  align-items: center;
+}
+
+.clients__logo-one {
+  width: 128px;
+  height: 30px;
+}
+
+.clients__logo-two {
+  width: 128px;
+  height: 78px;
+}
+
+.clients__logo-three {
+  width: 128px;
+  height: 20px;
+}
+
+.clients__logo-four {
+  width: 128px;
+  height: 36px;
+}
+
+.content__swirling-staircase {
+  background-image: url('../image/swirling-staircase.jpg');
 }
