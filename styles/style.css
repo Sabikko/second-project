@@ -147,7 +147,7 @@
   line-height: 24px;
 }
 
-.our-firm__user-profile {
+.user-profile {
   display: flex;
   align-items: center;
   min-height: 100px;
@@ -169,7 +169,7 @@
 
 .user-profile__name {
   color: var(--accent-color-text);
-  font-size: 17px;
+  font-size: 18px;
   line-height: 26px;
 }
 
@@ -345,4 +345,123 @@
 
 .content__swirling-staircase {
   background-image: url('../image/swirling-staircase.jpg');
+}
+
+.content__feature-projects {
+  padding: 120px 120px 100px;
+  background-color: var(--accent-white-bg);
+}
+
+.feature-projects__block-content {
+  padding: 0 16px;
+}
+
+.feature-projects__block-text {
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.feature-projects__title {
+  margin-bottom: 15px;
+}
+
+.feature-projects__description {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.feature-projects__list-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 40px;
+  list-style: none;
+}
+
+.feature-projects__list-item-card {
+  padding: 2px;
+}
+
+.feature-projects__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 456px;
+  padding: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-image-one {
+  background-image: url('../image/project-one.jpg');
+}
+
+.card-image-two {
+  background-image: url('../image/project-two.jpg');
+}
+
+.card-image-three {
+  background-image: url('../image/project-three.jpg');
+}
+
+.card__title {
+  color: var(--accent-color);
+  font-weight: var(--font-weight);
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.card__button {
+  border-radius: 14px;
+  background-color: var(--accent-color-text);
+}
+
+.card__button-text {
+  color: #FFF;
+}
+
+.feature-projects__block-action {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-projects__button-text {
+  color: var(--accent-color-text);
+}
+
+.content__team {
+  padding: 100px 136px;
+}
+
+.team__block-content {
+  display: flex;
+  gap: 16px;
+}
+
+.team__block-text {
+  max-width: 380px;
+}
+
+.team__title {
+  margin-bottom: 14px;
+  color: var(--accent-color);
+}
+
+.team__description {
+  margin-bottom: 30px;
+  padding-right: 21px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.team__button-text {
+  color: var(--accent-color-text);
+}
+
+.team__block-users {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px 115px;
 }
